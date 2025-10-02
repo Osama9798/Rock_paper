@@ -1,0 +1,36 @@
+body {
+  margin: 50px;
+  font-family: roboto;
+  background-color: rgb(93, 96, 252);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.btn-container {
+  display: flex;
+  padding: 20px;
+  margin: 5vw;
+  gap: 20vw;
+  justify-content: center;
+}
+.btn {
+  padding: 40px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1 1;
+}
+.btn:hover {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 1 2;
+}
+.ans-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid red;
+}
